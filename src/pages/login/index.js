@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.scss'
-import SignIn from '../../components/SignIn'
+import SignIn from '../../components/signin'
 import { Helmet } from 'react-helmet'
 import TypeEffect from '../../components/TypeEffect/TypeEffect'
 const Login = (props) => {

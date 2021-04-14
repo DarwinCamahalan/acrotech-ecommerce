@@ -7,7 +7,7 @@ import {
 } from './../../redux/Cart/cart.selectors'
 import { createStructuredSelector } from 'reselect'
 import './styles.scss'
-import Button from '../forms/Button'
+import Button from '../forms/button'
 import Item from './Item'
 import { motion } from 'framer-motion'
 const mapState = createStructuredSelector({

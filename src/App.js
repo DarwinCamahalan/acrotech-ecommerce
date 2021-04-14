@@ -18,8 +18,8 @@ import DashboardLayout from './layouts/DashboardLayout'
 
 // pages
 import Search from './pages/Search'
-import Registration from './pages/SignUp'
-import Login from './pages/Login'
+import Registration from './pages/signup'
+import Login from './pages/login'
 import Recovery from './pages/Recovery'
 import Dashboard from './pages/Dashboard'
 import Admin from './pages/Admin'

@@ -9,7 +9,7 @@ import './styles.scss'
 import { motion } from 'framer-motion'
 import AuthWrapper from './../AuthWrapper'
 import FormInput from './../forms/FormInput'
-import Button from './../forms/Button'
+import Button from './../forms/button'
 
 const mapState = ({ user }) => ({
   resetPasswordSuccess: user.resetPasswordSuccess,

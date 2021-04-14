@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js'
 import FormInput from './../forms/FormInput'
-import Button from './../forms/Button'
+import Button from './../forms/button'
 import { CountryDropdown } from 'react-country-region-selector'
 import { apiInstance } from './../../Utils'
 import {

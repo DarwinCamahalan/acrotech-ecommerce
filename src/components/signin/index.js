@@ -12,7 +12,7 @@ import { FaFacebook } from 'react-icons/fa'
 import AuthWrapper from '../AuthWrapper'
 import { motion } from 'framer-motion'
 import FormInput from '../forms/FormInput'
-import Button from '../forms/Button'
+import Button from '../forms/button'
 
 const mapState = ({ user }) => ({
   currentUser: user.currentUser,

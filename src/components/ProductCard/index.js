@@ -10,7 +10,7 @@ import { FaCheck } from 'react-icons/fa'
 import { BsToggleOff, BsToggleOn } from 'react-icons/bs'
 
 import { addProduct } from './../../redux/Cart/cart.actions'
-import Button from './../forms/Button'
+import Button from './../forms/button'
 import './styles.scss'
 import { motion } from 'framer-motion'
 import Tilt from 'react-tilt'

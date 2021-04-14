@@ -8,7 +8,7 @@ import {
 import Modal from './../../components/Modal'
 import FormInput from './../../components/forms/FormInput'
 import FormSelect from './../../components/forms/FormSelect'
-import Button from '../../components/forms/Button'
+import Button from '../../components/forms/button'
 import LoadMore from './../../components/LoadMore'
 import CKEditor from 'ckeditor4-react'
 import './styles.scss'

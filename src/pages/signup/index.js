@@ -1,4 +1,4 @@
-import Signup from '../../components/SignUp'
+import Signup from '../../components/Signup'
 import './styles.scss'
 import { Helmet } from 'react-helmet'
 import TypeEffect from '../../components/TypeEffect/TypeEffect'
