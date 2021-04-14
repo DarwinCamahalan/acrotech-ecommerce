@@ -1,0 +1,21 @@
+.load-more-btn {
+  display: block;
+  background-color: rgb(11, 108, 255);
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  color: white;
+  border: 0;
+  width: 35rem;
+  margin: 5rem auto;
+  cursor: pointer;
+  &:hover {
+    background-color: #f64f59;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .load-more-btn {
+    width: 80%;
+  }
+}

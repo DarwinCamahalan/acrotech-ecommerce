@@ -1,0 +1,21 @@
+.payment {
+  padding: 2rem 30rem;
+  .paymentDetails {
+    display: block;
+    width: 100%;
+    max-width: 100rem;
+    padding: 3rem;
+    background-color: white;
+    margin: 2rem auto;
+
+    .group {
+      margin: 0 0 2rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .payment {
+    padding: 0 1rem;
+  }
+}

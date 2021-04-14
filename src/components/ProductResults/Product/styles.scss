@@ -1,0 +1,72 @@
+#added {
+  transition: all ease-in-out 200ms;
+  position: absolute;
+  top: 5%;
+  left: 100%;
+  transform: translate(-100%);
+  z-index: 3;
+  height: 4rem;
+  width: 19rem;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  padding: 1rem 0rem 0.5rem;
+  color: white;
+  background-color: #0f9b0f;
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.cards {
+  transition: all 200ms ease-in-out;
+  margin: 3px;
+  position: relative;
+  .stars:focus {
+    border: 0 !important;
+    outline: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  img {
+    object-fit: contain;
+  }
+  a {
+    color: black !important;
+  }
+  .btn-add-cart {
+    background-color: rgb(11, 108, 255);
+    color: white !important;
+    position: absolute;
+    border-radius: 0;
+    padding-top: 0.5rem;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+  }
+  &:hover {
+    transform: scale(1.01);
+    .btn-add-cart {
+      &:hover {
+        background-color: #f64f59;
+      }
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #added {
+    width: 90%;
+    font-size: 11px;
+  }
+  .cards {
+    width: 48.1%;
+  }
+}

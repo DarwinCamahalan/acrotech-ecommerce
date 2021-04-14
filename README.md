@@ -1,2 +1,3 @@
-# acrotech-ecommerce
-E-Commece Website
+# Acrotech E-Commerce Website
+---
+## Developer: Darwin Camahalan

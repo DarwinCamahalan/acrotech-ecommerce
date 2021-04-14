@@ -1,0 +1,32 @@
+.formWrap-login {
+  margin: 0 0;
+}
+
+.socialSignin {
+  margin: 0.5rem auto 0;
+}
+
+.links-login {
+  display: block;
+  width: 100%;
+  margin-top: 5rem;
+
+  a {
+    color: black;
+  }
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  color: rgb(88, 88, 88);
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  .gooogle {
+    background-color: rgb(33, 146, 252);
+  }
+}

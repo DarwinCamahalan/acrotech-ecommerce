@@ -1,0 +1,33 @@
+.authWrapper {
+  display: block;
+  width: 100%;
+  background-color: white;
+  max-width: 40rem;
+  margin-left: 60%;
+  border-radius: 5px;
+  margin-top: 2rem;
+  .wrap {
+    padding: 20px;
+
+    h2 {
+      font-size: 2.2rem;
+      line-height: 1;
+      font-weight: 400;
+      text-align: left;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0 auto 3rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .authWrapper {
+    display: block;
+    width: 100%;
+    background-color: white;
+    max-width: 40rem;
+    margin: 2rem auto;
+  }
+}
